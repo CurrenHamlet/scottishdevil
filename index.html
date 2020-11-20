@@ -8,10 +8,30 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     
-    <title>Scottish Devil</title>
+    <title>SCOTTISH DEVIL</title>
 
 </head>
 <body>
+
+    <div class="sticky">
+        <div class="topnav">
+            <a href="index.html"> SCOTTISH DEVIL</a>
+            <div class="topnav-right">
+                <span class="open" style="font-size:25px;" onclick="openNav()">&#9776; </span>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Narrative</a>
+        <a href="#">Bibliography</a>
+        <a href="#"></a>
+    </div>
+    
     <div class="container">
         <div class="row">
             <h1>Header</h1>
@@ -31,6 +51,20 @@
         </div>
     
     </div>
+
+    
+
+    <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+    
 
 </body>
 </html>
