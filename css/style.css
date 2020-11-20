@@ -1,3 +1,7 @@
+html{
+    cursor: crosshair;
+}
+
 body {
     background-color: #292929;
     background-image: url("../images/background.jpg");
@@ -5,4 +9,87 @@ body {
     background-repeat: no-repeat;
     color: #ffffff;
     font-family: sans-serif;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: none;
+    color: #f1efed;
+}
+
+.topnav a {
+    float: left;
+    padding: 40px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    cursor: default;
+    transition: .3s;
+    color: #818181;
+    transition: 0.5s;
+}
+
+.topnav-right span{
+    position: fixed;
+    padding: 32px;
+    right: 0;
+    font-size: 25px;
+    color: whitesmoke;
+    transition: 0.5s
+}
+
+.open:hover{
+    color: #818181;
+    cursor: default;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    float: left;
+    cursor: default;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding-top: 20px;
+    color: white;
+}
+
+.sidenav .closebtn:hover{
+    color: #818181;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
