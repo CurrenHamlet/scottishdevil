@@ -94,8 +94,6 @@ body {
     color: #818181;
 }
 
-
-
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -139,8 +137,6 @@ body {
 }
 
 @media (max-width: 600px){
-    .devil1 {
-        width: 350px;
-    }
+    .devil1 {width: 300px;}
 }
 
