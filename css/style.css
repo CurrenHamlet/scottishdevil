@@ -45,7 +45,11 @@ body {
     font-size: 25px;
     color: whitesmoke;
     transition: .5s;
-}
+    }
+
+/* .sticky{
+    position: fixed;
+} */
 
 .open:hover{
     color: #818181;
@@ -113,6 +117,8 @@ body {
     color: #818181;
 }
 
+
+
 .overtext{
     position: absolute;
     top: 50%;
@@ -138,8 +144,8 @@ body {
 }
 
 .cont{
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
 @media screen and (max-height: 450px) {
