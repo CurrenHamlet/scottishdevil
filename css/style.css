@@ -6,6 +6,7 @@ html{
 
 .type{
     text-align: left;
+    font-size: large;
 }
 
 body {
@@ -117,8 +118,6 @@ body {
     color: #818181;
 }
 
-
-
 .overtext{
     position: absolute;
     top: 50%;
@@ -144,8 +143,8 @@ body {
 }
 
 .cont{
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
