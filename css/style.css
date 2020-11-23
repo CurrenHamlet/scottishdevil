@@ -3,6 +3,10 @@ html{
     font-family: "Lato";
 }
 
+.type{
+    text-align: left;
+}
+
 body {
     background-color: #292929;
     background-image: url("../images/background.jpg");
@@ -16,6 +20,7 @@ body {
     overflow: hidden;
     background-color: none;
     color: #f1efed;
+
 }
 
 .topnav a {
@@ -39,7 +44,7 @@ body {
     right: 0;
     font-size: 25px;
     color: whitesmoke;
-    transition: 0.5s
+    transition: 0.5s;
 }
 
 .open:hover{
@@ -129,14 +134,26 @@ body {
 .center{
     text-align: center;
     position: relative;
+
+}
+
+.cont{
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .type{
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px){
     .devil1 {width: 300px;}
+    .type{
+        text-align: center;
+    }
 }
 
