@@ -22,7 +22,6 @@ body {
     overflow: hidden;
     background-color: none;
     color: #f1efed;
-
 }
 
 .topnav a {
@@ -46,11 +45,12 @@ body {
     font-size: 25px;
     color: whitesmoke;
     transition: .5s;
+    z-index: 2;
     }
 
-/* .sticky{
+/*.sticky{
     position: fixed;
-} */
+}*/
 
 .open:hover{
     color: #818181;
@@ -61,10 +61,10 @@ body {
     height: 0%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0, 0.85);
+    background-color: rgba(0,0,0, 0.90);
     overflow-y: hidden;
     transition: .5s;
     /* height: 100%;
@@ -139,7 +139,6 @@ body {
 .center{
     text-align: center;
     position: relative;
-
 }
 
 .cont{
