@@ -18,6 +18,10 @@ body {
     font-family: "Lato";
 }
 
+.smallnav{
+    font-size: 17px;
+}
+
 .topnav{
     overflow: hidden;
     background-color: none;
