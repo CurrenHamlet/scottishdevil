@@ -146,6 +146,15 @@ body {
     padding-right: 20%;
 }
 
+.annotation {
+    padding-left:50px;
+}
+
+.hanging-indent {
+    padding-left: 50px;
+    text-indent: -50px;
+    font-size: 1.25em;
+}
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
