@@ -191,6 +191,16 @@ body {
     /* background-color: #f1f1f1; */
 }
 
+.col{
+    color: white;
+}
+
+.col:hover{
+    color: grey;
+    transition: .5s;
+    cursor: default;
+}
+
 /* END Collapsibles */
 
 iframe{
