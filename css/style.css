@@ -217,15 +217,25 @@ footer{
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
     .type{
         text-align: center;
     }
 }
 
 @media (max-width: 600px){
-    .devil1 {width: 300px;}
+    body {
+        padding:0; /*** test ***/
+        margin:0;
+    }
+    .devil1 {
+        width: 300px;
+    }
     .type{
         text-align: center;
     }
