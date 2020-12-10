@@ -193,6 +193,10 @@ body {
 
 /* END Collapsibles */
 
+iframe{
+    background-color: white;
+}
+
 footer{
     text-align: center;
     padding: 15px;
