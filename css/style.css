@@ -127,6 +127,10 @@ body {
     text-align: center;
 }
 
+header {
+    min-height:100vh;
+}
+
 .devil1{
     width: 50%;
     z-index: -99;
