@@ -229,10 +229,6 @@ footer{
 }
 
 @media (max-width: 600px){
-    * { /*** test ***/
-        padding:0;
-        margin:0;
-    }
     .devil1 {
         width: 300px;
     }
