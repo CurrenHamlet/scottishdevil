@@ -7,10 +7,6 @@ function closeNav() {
     document.getElementById("mySidenav").style.height = "0";
 }
 
-function expCont() {
-    document.querySelector('#datacrit').click();
-}
-
 /* Collapsibles */
 var coll = document.getElementsByClassName("collapsible");
 var i;
