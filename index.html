@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
-    
+
     <link rel="stylesheet" href="css/style.css">
 
     <title>THE SCOTTISH DEVIL | HOME</title>
@@ -26,20 +26,23 @@
                 </div>
             </div>
         </div>
-            
+
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
                 <a href="#narrative" onclick="closeNav()">Narrative</a>
-                <a href="#hunts" onclick="closeNav()">Devil Ages</a>
-                <a href="#1597" onclick="closeNav()" style="font-size: 17px;">1597-1598</a>
-                <a href="#1628" onclick="closeNav()" style="font-size: 17px;">1628-1631</a>
-                <a href="#1649" onclick="closeNav()" style="font-size: 17px;">1649</a>
-                <a href="#1661" onclick="closeNav()" style="font-size: 17px;">1661-1662</a>
+                <a href="#timeline" onclick="closeNav()">Timeline</a>
+                <a href="#hunts" class="collapsible">Devil Through the Ages</a>
+                <div class="content">
+                    <a href="#1597" onclick="closeNav()" style="font-size: 17px;">1597-1598</a>
+                    <a href="#1628" onclick="closeNav()" style="font-size: 17px;">1628-1631</a>
+                    <a href="#1649" onclick="closeNav()" style="font-size: 17px;">1649</a>
+                    <a href="#1661" onclick="closeNav()" style="font-size: 17px;">1661-1662</a>
+                </div>
                 <a href="about.html" onclick="closeNav()">About</a>
             </div>
         </div>
-    
+
     </nav>
 
     <header>
@@ -53,7 +56,7 @@
         <!-- Intro Paragraphs -->
 
         <div id="narrative" class="twelve columns center" style="padding-bottom: 30px;">
-            <h2 style="padding-bottom: 10px;">- Narrative -</h2>
+            <h2 style="padding-bottom: 10px;">Narrative</h2>
             <div class="row cont type">
                 <p>Our major object of study with this project is the physical description of the Devil during witch
                     trials in early modern Scotland. The Devil was a recurring character during the trial proceedings,
@@ -99,50 +102,90 @@
 
         <!-- END Intro -->
 
+        <div class="twelve columns center timeline">
+            <h2 style="padding-bottom: 10px;" id="timeline">Timeline</h2>
+            <iframe
+                src="https://cdn.knightlab.com/libs/storyline/latest/embed/index.html?dataURL=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F19CEtyBxU3lU8woNj0zATeICKcvRnlAML57m6jwY1phI%2Fedit%23gid%3D0&amp;dataYCol=numberofwitchaccusations&amp;dataXCol=year&amp;dataDateFormat=%25Y&amp;chartDateFormat=%25Y&amp;chartYLabel=Number%20of%20Accused%20Witches&amp;sliderCardTitleCol=title&amp;sliderCardTextCol=text"
+                style="width:90%;height:650px;" frameborder="0" marginwidth="0" marginheight="0" vspace="0"
+                hspace="0"></iframe>
+        </div>
+
         <!-- Hunts -->
         <div class="twelve columns center">
-            <h2 id="hunts">- The Devil Through the Ages -</h2>
+            <h2 id="hunts">The Devil Through the Ages</h2>
             <div class="twelve columns center">
                 <h3 style="padding-top: 2em;" class="overtext" id="1597">1597-1598</h3>
                 <img style="width: 20%;" src="images/1587-1598_Demon.png" alt="Red outline of devil dancing">
             </div>
-            
+
             <div class="row cont type">
                 <!-- devil appearance narrative -->
-                <p>In 1597, Jonat Lucas worked as a healer in her local Aberdeen community. She used threads of different color and length to provide diagnosis, prognosis, and cures for illness, but the threads didn’t always tell what her patients wanted to hear. One day, Lucas came to the home of a man whose wife felt ill, and her threads delivered good news: the wife had no fever, and her illness was not bewitched. According to the wife, however, the healer’s skills were not to be trusted, for she served the Devil in secret. While Lucas tended to the woman, the walls of the house began to shake. It was only dogs running nearby, Lucas assured, but the creature that entered the house was much more fearsome: the Devil, in the form of a four-footed beast. The husband and wife cowered on their bed in fear. According to the husband, Lucas promised the Devil would continue to appear until he returned all his stolen property to its rightful owners. Lucas denied the claims, but ultimately, she was banished from county Aberdeen. </p>
+                <p>In 1597, Jonat Lucas worked as a healer in her local Aberdeen community. She used threads of
+                    different color and length to provide diagnosis, prognosis, and cures for illness, but the threads
+                    didn’t always tell what her patients wanted to hear. One day, Lucas came to the home of a man whose
+                    wife felt ill, and her threads delivered good news: the wife had no fever, and her illness was not
+                    bewitched. According to the wife, however, the healer’s skills were not to be trusted, for she
+                    served the Devil in secret. While Lucas tended to the woman, the walls of the house began to shake.
+                    It was only dogs running nearby, Lucas assured, but the creature that entered the house was much
+                    more fearsome: the Devil, in the form of a four-footed beast. The husband and wife cowered on their
+                    bed in fear. According to the husband, Lucas promised the Devil would continue to appear until he
+                    returned all his stolen property to its rightful owners. Lucas denied the claims, but ultimately,
+                    she was banished from county Aberdeen. </p>
             </div>
-            <div class="row twelve columns center"><img src="images/1597-98_Color_Chart.png" style="width: 70%; padding-bottom: 30px;"></div>
+            <div class="row twelve columns center"><img src="images/1597-98_Color_Chart.png"
+                    style="width: 70%; padding-bottom: 30px;"></div>
             <div class="row cont type">
                 <div class="twelve columns center">
                     <h3 style="padding-top: 2em;" class="overtext" id="1628">1628-1631</h3>
                     <img style="width: 25%;" src="images/1628-1631_Demon.png" alt="Red outline of devil dancing">
                 </div>
                 <!-- devil appearance narrative -->
-                <p>In 1624, just before noon at Michaelmas, Alexander Hammiltoun met a man on the Hugstoun Hills, dressed all in black: the Devil. A penniless vagabond from Newcastle, Hammiltoun was enticed by the terms of the Devil’s pact. He would want for nothing, the man promised; not meat, nor clothing, nor money. In exchange, Hammiltoun entered into the Devil’s service. For the price of an animal—a cat or a dog—Hammiltoun received a wand that he could use to raise the Devil, and four silver shillings in his pocket. From then on, according to Hammiltoun, he attended many witches meetings with the Devil, often held at noon on the hilltops, or in the valleys and forests around the country. </p>
+                <p>In 1624, just before noon at Michaelmas, Alexander Hammiltoun met a man on the Hugstoun Hills,
+                    dressed all in black: the Devil. A penniless vagabond from Newcastle, Hammiltoun was enticed by the
+                    terms of the Devil’s pact. He would want for nothing, the man promised; not meat, nor clothing, nor
+                    money. In exchange, Hammiltoun entered into the Devil’s service. For the price of an animal—a cat or
+                    a dog—Hammiltoun received a wand that he could use to raise the Devil, and four silver shillings in
+                    his pocket. From then on, according to Hammiltoun, he attended many witches meetings with the Devil,
+                    often held at noon on the hilltops, or in the valleys and forests around the country. </p>
             </div>
-            <div class="row twelve columns center"><img src="images/1628-31_Color_Chart.png" style="width: 70%; padding-bottom: 30px;"></div>
+            <div class="row twelve columns center"><img src="images/1628-31_Color_Chart.png"
+                    style="width: 70%; padding-bottom: 30px;"></div>
             <div class="row cont type">
                 <div class="twelve columns center">
                     <h3 style="padding-top: 2em;" class="overtext" id="1649">1649</h3>
                     <img style="width: 40%;" src="images/1649-demon.png" alt="Red outline of devil dancing">
                 </div>
                 <!-- devil appearance narrative -->
-                <p>In the late 1640s, Margrat NcWilliam encountered a strange young man. He was well-favored, handsomely dressed in a green suit, and above all, promised to raise her out of her poverty—if she helped him in return. There was only one catch; this man was the Devil. She was reluctant to agree, and fought against his advances. He made his offer twice, and twice she refused. Suddenly he grabbed her leg, leaving a mark, and asked a third time for her service. In pain, she agreed to help him; as soon as she spoke the word, the Devil put his mouth to her leg to heal the sore. </p>
-                <p>Although he promised she would want for nothing, the Devil’s help came at a steep price. First, she gave him a gift of a chicken. Soon, however, he asked for something more precious: the life of her son. He gave her an elf-shot, an arrow from the elves that leaves invisible wounds. Unable to rescind her agreement, NcWilliam used the elf-shot on her son, who died of his wounds ten days later. </p>
+                <p>In the late 1640s, Margrat NcWilliam encountered a strange young man. He was well-favored, handsomely
+                    dressed in a green suit, and above all, promised to raise her out of her poverty—if she helped him
+                    in return. There was only one catch; this man was the Devil. She was reluctant to agree, and fought
+                    against his advances. He made his offer twice, and twice she refused. Suddenly he grabbed her leg,
+                    leaving a mark, and asked a third time for her service. In pain, she agreed to help him; as soon as
+                    she spoke the word, the Devil put his mouth to her leg to heal the sore. </p>
+                <p>Although he promised she would want for nothing, the Devil’s help came at a steep price. First, she
+                    gave him a gift of a chicken. Soon, however, he asked for something more precious: the life of her
+                    son. He gave her an elf-shot, an arrow from the elves that leaves invisible wounds. Unable to
+                    rescind her agreement, NcWilliam used the elf-shot on her son, who died of his wounds ten days
+                    later. </p>
             </div>
-                <div class="row twelve columns center"><img src="images/1649_Color_Chart.png" style="width: 70%; "></div>
+            <div class="row twelve columns center"><img src="images/1649_Color_Chart.png" style="width: 70%; "></div>
         </div>
+        </div>
+        <div class="row cont type">
+            <div class="twelve columns center">
+                <h3 style="padding-top: 2em;" class="overtext" id="1661">1661-1662</h3>
+                <img style="width: 30%;" src="images/1661-1662_Demon.png" alt="Red outline of devil dancing">
             </div>
-            <div class="row cont type">
-                <h3 style="padding-bottom: 10px;" class="center" id="1661">1661-1662</h3>
-                <div class="twelve columns center">
-                    <h3 style="padding-top: 2em;" class="overtext" id="1661">1661-1662</h3>
-                    <img style="width: 30%;" src="images/1661-1662_Demon.png" alt="Red outline of devil dancing">
-                </div>
-                <!-- devil appearance narrative -->
-                <p>In January of 1662, Jonet Morisone was coming home to Rothesay parish at twilight when she came upon a fierce black man waiting in the dark. He spoke to her sweetly, promising to raise her out of poverty and make her a great Lady in a castle, if she agreed to go with him. At once, she recognized the tricks of the Devil. His words were tempting, but she refused the offer. He grabbed her hand and made the offer again, adding that he would teach her how to “bring home” Adam Ker, a man recently killed in the community. With his grip tight around her hand, she agreed to meet him again soon. </p>
-            </div>
-            <div class="row twelve columns center"><img src="images/1661-1662_Color_Chart.png" style="width: 70%; padding-bottom: 30px;"></div>
+            <!-- devil appearance narrative -->
+            <p>In January of 1662, Jonet Morisone was coming home to Rothesay parish at twilight when she came upon a
+                fierce black man waiting in the dark. He spoke to her sweetly, promising to raise her out of poverty and
+                make her a great Lady in a castle, if she agreed to go with him. At once, she recognized the tricks of
+                the Devil. His words were tempting, but she refused the offer. He grabbed her hand and made the offer
+                again, adding that he would teach her how to “bring home” Adam Ker, a man recently killed in the
+                community. With his grip tight around her hand, she agreed to meet him again soon. </p>
+        </div>
+        <div class="row twelve columns center"><img src="images/1661-1662_Color_Chart.png"
+                style="width: 70%; padding-bottom: 30px;"></div>
         </div>
         <!-- END Hunts -->
 
@@ -151,7 +194,7 @@
             <img style="text-align: center; width: 90%; height: 650px; padding-bottom: 30px;"
                 src="images/Black_White_Green_Brown_Chart.png"></img>
 
-                <p>Figure 1. </p>
+            <p>Figure 1. </p>
 
         </div>
 
@@ -160,28 +203,17 @@
             <img style="text-align: center; width: 90%; height: 650px; padding-bottom: 30px;"
                 src="images/male_animal_fairy_spirit_female_Chart.png"></img>
 
-                <p>Figure 2. </p>
+            <p>Figure 2. </p>
 
         </div>
 
-        <div class="twelve columns center">
-            <iframe
-src="https://cdn.knightlab.com/libs/storyline/latest/embed/index.html?dataURL=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F19CEtyBxU3lU8woNj0zATeICKcvRnlAML57m6jwY1phI%2Fedit%23gid%3D0&amp;dataYCol=numberofwitchaccusations&amp;dataXCol=year&amp;dataDateFormat=%25Y&amp;chartDateFormat=%25Y&amp;chartYLabel=Number%20of%20Accused%20Witches&amp;sliderCardTitleCol=title&amp;sliderCardTextCol=text" style="width:90%;height:650px;" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0"></iframe> 
-        </div>
-
-
-
-        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.height = "100%";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.height = "0";
-            }
-        </script>
+        <script src="js/script.js"></script>
 
     </main>
+
+    <footer>
+        <p>Western Washington University - CSCI 197</p>
+    </footer>
 
 </body>
 

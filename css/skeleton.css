@@ -165,6 +165,7 @@ a:hover {
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .button,
 button,
 input[type="submit"],
@@ -179,7 +180,7 @@ input[type="button"] {
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
@@ -197,7 +198,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
+  color: #fff;
   border-color: #888;
   outline: 0; }
 .button.button-primary,
