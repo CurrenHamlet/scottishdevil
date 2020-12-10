@@ -29,8 +29,10 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
       <a href="index.html" onclick="closeNav()">Return to Main</a>
-      <a href="#datacrit" onclick="closeNav()">Data Critique</a>
-      <a href="#bib" onclick="closeNav()">Bibliography</a>
+
+      <a href="#datacrit" onclick="closeNav();document.querySelector('#datacrit').click();">Data Critique</a>
+
+      <a href="#bib" onclick="closeNav();document.querySelector('#bib').click();">Bibliography</a>
 
     </div>
   </div>
